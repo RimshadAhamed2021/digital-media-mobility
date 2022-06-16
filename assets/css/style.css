@@ -2820,7 +2820,7 @@ hr {
   border-radius: 0 0 20px 20px;
   z-index: 1;
   position: relative;
-    min-height: 338px;
+    min-height: 400px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single-service {
@@ -2830,6 +2830,7 @@ hr {
 @media only screen and (max-width: 479px) {
   .single-service {
     padding: 30px;
+    min-height: auto;
   }
 }
 .single-service-top {
